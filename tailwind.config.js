@@ -5,7 +5,17 @@ module.exports = {
     'source/**/*.html',
   ],
   theme: {
-    extend: {},
+    extend: {
+      container: {
+        center: true
+      },
+      colors: {
+        blue: {
+          150: '#dbeafc',
+          750: '#223e7c',
+        }
+      }
+    },
   },
   variants: {
     extend: {},
